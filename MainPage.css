@@ -1,6 +1,6 @@
 .MainBody
 {
-    text-align: center;
+    background-color: #f5f6fa;
 }
 
 .WebT
@@ -13,6 +13,7 @@
     top: 0;
     margin-top: auto;
     border-style: ridge;
+    text-align: center;
 }
 .WebTp1
 {
@@ -24,5 +25,31 @@
 {
     font-size: 20px;
     color: #000;
+}
+
+.FirstQ
+{
+    font-size: 30px;
+    text-align: center;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.FAQ
+{
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    color: white;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 2%;
+
 }
 
